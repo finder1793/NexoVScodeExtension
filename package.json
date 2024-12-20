@@ -1,6 +1,6 @@
 {
     "name": "nexo-vscode-extension",
-    "displayName": "Nexo VSCode Extension",
+    "displayName": "Nexo VSCode Extension ",
     "description": "VSCode support for Nexo configuration files",
     "version": "0.0.1",
     "license": "GPL-3.0",
