@@ -19,4 +19,4 @@ export function activate(context: vscode.ExtensionContext) {
     const diagnosticsProvider = new NexoDiagnosticsProvider();
 }
 
-export function deactivate() {}}
+export function deactivate() {}
