@@ -1,0 +1,29 @@
+{
+    "Nexo Weapon": {
+        "prefix": "nexo-weapon",
+        "body": [
+            "item:",
+            "  material: ${1|DIAMOND_SWORD,IRON_SWORD,WOODEN_SWORD|}",
+            "  name: \"${2:&bCustom Weapon}\"",
+            "  model: ${3:1}",
+            "  mechanics:",
+            "    - damage: ${4:10}",
+            "    - ${5:durability}: ${6:100}"
+        ],
+        "description": "Create a new weapon item"
+    },
+    "Nexo Furniture": {
+        "prefix": "nexo-furniture",
+        "body": [
+            "furniture:",
+            "  material: ${1:BARRIER}",
+            "  name: \"${2:&eCustom Furniture}\"",
+            "  model: ${3:1}",
+            "  position:",
+            "    x: ${4:0}",
+            "    y: ${5:0}",
+            "    z: ${6:0}"
+        ],
+        "description": "Create new furniture item"
+    }
+}

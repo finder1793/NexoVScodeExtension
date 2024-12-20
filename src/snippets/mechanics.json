@@ -1,0 +1,97 @@
+{
+    "Nexo ClickAction": {
+        "prefix": "nexo-clickaction",
+        "body": [
+            "clickActions:",
+            "  - conditions:",
+            "    - '#player.hasPermission(\"${1:permission}\")'",
+            "    - '#player.getHealth() > ${2:10}'",
+            "  actions:",
+            "    - '[console] ${3:command}'",
+            "    - '[message] ${4:&aMessage}'",
+            "    - '[sound] ${5:BLOCK_NOTE_BLOCK_PLING} ${6:1.0} ${7:1.0}'",
+            "    - '[title] ${8:Title}|${9:Subtitle}|${10:20}|${11:40}|${12:20}'"
+        ]
+    },
+
+    "Nexo NoteBlock": {
+        "prefix": "nexo-noteblock",
+        "body": [
+            "noteblock:",
+            "  material: NOTE_BLOCK",
+            "  model: ${1:1}",
+            "  directional: true",
+            "  sounds:",
+            "    break_sound: ${2:block.stone.break}",
+            "    place_sound: ${3:block.stone.place}",
+            "    hit_sound: ${4:block.stone.hit}",
+            "  drop:",
+            "    silktouch: ${5:false}",
+            "    loots:",
+            "      - { nexo_item: ${6:custom_block}, probability: 1.0 }"
+        ]
+    },
+
+    "Nexo StringBlock": {
+        "prefix": "nexo-stringblock",
+        "body": [
+            "stringblock:",
+            "  material: STRING",
+            "  model: ${1:1}",
+            "  collision: ${2:false}",
+            "  light_level: ${3:15}",
+            "  sounds:",
+            "    break_sound: ${4:block.grass.break}",
+            "    place_sound: ${5:block.grass.place}"
+        ]
+    },
+
+    "Nexo Furniture": {
+        "prefix": "nexo-furniture",
+        "body": [
+            "furniture:",
+            "  block_sounds:",
+            "    place_sound: ${1:block.stone.place}",
+            "    break_sound: ${2:block.stone.break}",
+            "    hit_sound: ${3:block.stone.hit}",
+            "  hitbox:",
+            "    barriers:",
+            "      - ${4:0,0,0}",
+            "  position:",
+            "    x: ${5:0}",
+            "    y: ${6:0}",
+            "    z: ${7:0}",
+            "    yaw: ${8:0}",
+            "  storage:",
+            "    size: ${9:27}",
+            "    title: \"${10:Storage}\"",
+            "  drop:",
+            "    silktouch: ${11:false}",
+            "    loots:",
+            "      - { nexo_item: ${12:furniture_item}, probability: 1.0 }"
+        ]
+    },
+
+    "Nexo Other Mechanics": {
+        "prefix": "nexo-mechanics",
+        "body": [
+            "mechanics:",
+            "  - thor:",
+            "      damage: ${1:10}",
+            "      cooldown: ${2:20}",
+            "  - lifesteal:",
+            "      amount: ${3:2}",
+            "  - energyblast:",
+            "      damage: ${4:5}",
+            "      speed: ${5:1.5}",
+            "  - soulbound:",
+            "      level: ${6:1}",
+            "  - backpack:",
+            "      size: ${7:27}",
+            "      title: \"${8:Backpack}\"",
+            "  - food:",
+            "      hunger: ${9:10}",
+            "      saturation: ${10:10}"
+        ]
+    }
+}

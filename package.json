@@ -1,0 +1,24 @@
+{
+    "name": "nexo-vscode-extension",
+    "displayName": "Nexo VSCode Extension",
+    "description": "VSCode support for Nexo configuration files",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.85.0"
+    },
+    "main": "./out/extension.js",
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onLanguage:yaml"
+    ],
+    "contributes": {
+        "commands": [
+            {
+                "command": "nexo.generateResourcePack",
+                "title": "Generate Resource Pack"
+            }
+        ]
+    }
+}

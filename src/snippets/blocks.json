@@ -1,0 +1,29 @@
+{
+    "Nexo NoteBlock": {
+        "prefix": "nexo-noteblock",
+        "body": [
+            "noteblock:",
+            "  id: ${1:custom_block}",
+            "  material: NOTE_BLOCK",
+            "  name: \"${2:&bCustom Block}\"",
+            "  model: ${3:1}",
+            "  mechanics:",
+            "    - directional",
+            "    - ${4:breakable}"
+        ],
+        "description": "Create a new noteblock-based custom block"
+    },
+    "Nexo StringBlock": {
+        "prefix": "nexo-stringblock",
+        "body": [
+            "stringblock:",
+            "  id: ${1:custom_decoration}",
+            "  material: STRING",
+            "  name: \"${2:&eCustom Decoration}\"",
+            "  model: ${3:1}",
+            "    - collision: false",
+            "    - ${4:light_level}: ${5:15}"
+        ],
+        "description": "Create a new string-based decoration block"
+    }
+}

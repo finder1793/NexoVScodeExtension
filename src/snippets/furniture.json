@@ -1,0 +1,34 @@
+{
+    "Nexo Chair": {
+        "prefix": "nexo-chair",
+        "body": [
+            "furniture:",
+            "  id: ${1:custom_chair}",
+            "  material: BARRIER",
+            "  name: \"${2:&eComfortable Chair}\"",
+            "  model: ${3:1}",
+            "  position:",
+            "    x: 0",
+            "    y: 0",
+            "    z: 0",
+            "  mechanics:",
+            "    - sittable",
+            "    - rotation: true"
+        ]
+    },
+    "Nexo Table": {
+        "prefix": "nexo-table",
+        "body": [
+            "furniture:",
+            "  id: ${1:custom_table}",
+            "  material: BARRIER",
+            "  name: \"${2:&eElegant Table}\"",
+            "  model: ${3:1}",
+            "  mechanics:",
+            "    - collision: true",
+            "    - placement:",
+            "        surface: true",
+            "        wall: false"
+        ]
+    }
+}
